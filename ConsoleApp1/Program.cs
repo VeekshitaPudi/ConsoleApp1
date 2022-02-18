@@ -11,6 +11,11 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Git");
+
+            for(int i = 0; i < 60; i++)
+            {
+                Console.WriteLine("*");
+            }
         }
     }
 }
