@@ -11,20 +11,9 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Git");
-
-            
-
-            for(int i = 0; i < 10; i++)
+            for(int i = 1; i <= 10; i++)
             {
-                for (int k = 0; k < 60; k++)
-                {
-                    Console.Write("*");
-                }
-                Console.WriteLine("Welcome All!!!");
-                for(int j = 0; j < 60; j++)
-                {
-                    Console.Write("*");
-                }
+                Console.Write(i+ " ");
             }
         }
     }
