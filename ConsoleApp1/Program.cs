@@ -12,9 +12,9 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Welcome to Git");
 
-            for(int i = 0; i < 60; i++)
+            for(int i = 1; i <= 10; i++)
             {
-                Console.Write("*");
+                Console.Write(i*2 + " ");   
             }
         }
     }
