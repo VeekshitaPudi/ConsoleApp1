@@ -16,7 +16,13 @@ namespace ConsoleApp1
             for(int i = 1; i <= 10; i++)
             {
                 Console.Write(i*2 + " ");   
-                Console.Write(i+ " ");
+                //Console.Write(i+ " ");
+            }
+            Console.WriteLine();
+            for (int i = 1; i <= 10; i++)
+            {
+                //Console.Write(i * 2 + " ");
+                Console.Write(i + " ");
             }
         }
     }
